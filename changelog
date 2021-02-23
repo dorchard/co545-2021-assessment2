@@ -1,3 +1,7 @@
+	# v1.3
+	- Added a helpful note to q.9
+	- Added an example to q.12
+
 	# v1.2.1
 	- Fixed a typo in q.15 (getCommand -> readCommand).
 

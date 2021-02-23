@@ -219,8 +219,12 @@ the direction \texttt{\emph{dir}});
 \item \texttt{end} parsed to \texttt{End}.
 %
 \end{itemize}
+
 \emph{Hint: remember strings are lists and you can pattern match on a
-  number of characters at the start of a list by nested cons patterns.}
+  number of characters at the start of a list by nested cons and character patterns.}
+
+\emph{Note: in Q7 and Q8 you defined \texttt{parse}
+for \texttt{Item} and \texttt{Direction} which can be used here.}
 
 %
 \item \topMarks{3} Define a function \texttt{tellResponse}
@@ -259,6 +263,9 @@ and returns the result of parsing the user's input string via
 %
 which, from the second parameter, deletes the pair whose first
 component is equal to the first parameter.
+
+\emph{Example:} \texttt{deleteFrom 4 [(2, 'a'), (4, 'b'), (1, 'e')]
+= [(2, 'a'), (1, 'e')]}
 
 \item \topMarks{4} During the course of the game engine, a room may
 be recomputed (e.g., items removed, monster wounded
